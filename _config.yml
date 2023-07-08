@@ -30,9 +30,10 @@ mathjax: 1 # 1开启,公式解析
 # 菜单导航栏
 menus:
   首页: { path: /, fa: fa-fort-awesome faa-shake }
-  归档: { path: /archives, fa: fa-archive faa-shake, submenus: {
+  归档: { path: /archives/, fa: fa-archive faa-shake, submenus: {
     # 统计: {path: /analytics/ , fa: fa-line-chart },
-    标签: {path: /tags, fa: fa-tags }, 
+    全部文章: {path: /categories/, fa: fa-book faa-shake},
+    标签: {path: /tags/, fa: fa-tags }, 
     # 技术: {path: /categories/技术/, fa: fa-code }, 
     # 生活: {path: /categories/生活/, fa: fa-file-text-o } #, 
     #资源: {path: /categories/资源/, fa: fa-cloud-download }, 
