@@ -4,7 +4,7 @@ prefixName: SaltA
 siteName: Utopia
 # favicon and site master avatar
 favicon: https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Site/favicon.ico
-avatar: https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Site/avatar.gif
+avatar: /Blog/Site/avatar.gif
 url: https://www.salta.top
 description: 像你这样的惊喜，可遇而不可求呢…
 
@@ -14,7 +14,7 @@ logo:
   no: ⭐
   shironeko: Utopia
 
-siteBuildingTime: 2021-09-08 00:00:00 # your site build time or founded date(2020-05-20 17:20:00)
+siteBuildingTime: 2021-09-08 00:00:00
 
 #ICP备案信息尾部显示
 icp:
@@ -167,25 +167,25 @@ valine:
 # 动态说说页面
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://artitalk.js.org
-artitalk:
-  appID: 
-  appKEY: 
-  pageSize: 5 #每页显示说说的数量
-  placeholder1: 写点啥呢 # 输入框提示语
-  placeholder2: 要更新头像吗？ # 头像提示语
-  severurl:  #国内版填写
-  lang: zh #语言English(en)及西班牙语Español(es)
-  motion: 0 # 加载动画1:加载,0取消加载
-  bgimg: https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich16.gif # 输入框小动画
-  # 极简黑白主题minimalist、渐变主题gradient、壁纸wallpaper 
-  # 参考 https://blog.csdn.net/cungudafa/article/details/106224223
-  style: 
-    enable: true #个性定制
-    wallpaper: https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg #https://bing.rthe.net/wallpaper  # 壁纸
-    color: white   #字体颜色
-    linear_gradient: rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35) 95% # 渐变规律颜色+百分比 rgb(109, 208, 242) 15%, rgb(245, 154, 190) 85%
-    border_right_color: '#FFC0BE' #三角颜色
-    animation: false #true打开动画渐变渲染(壁纸和动画渐变渲染建议只开一个)
+# artitalk:
+#   appID: 
+#   appKEY: 
+#   pageSize: 5 #每页显示说说的数量
+#   placeholder1: 写点啥呢 # 输入框提示语
+#   placeholder2: 要更新头像吗？ # 头像提示语
+#   severurl:  #国内版填写
+#   lang: zh #语言English(en)及西班牙语Español(es)
+#   motion: 0 # 加载动画1:加载,0取消加载
+#   bgimg: https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich16.gif # 输入框小动画
+#   # 极简黑白主题minimalist、渐变主题gradient、壁纸wallpaper 
+#   # 参考 https://blog.csdn.net/cungudafa/article/details/106224223
+#   style: 
+#     enable: true #个性定制
+#     wallpaper: https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg #https://bing.rthe.net/wallpaper  # 壁纸
+#     color: white   #字体颜色
+#     linear_gradient: rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35) 95% # 渐变规律颜色+百分比 rgb(109, 208, 242) 15%, rgb(245, 154, 190) 85%
+#     border_right_color: '#FFC0BE' #三角颜色
+#     animation: false #true打开动画渐变渲染(壁纸和动画渐变渲染建议只开一个)
 
 # # gitalk 评论 
 # gitalk:
