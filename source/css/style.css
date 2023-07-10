@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 .aplayer-container {
     position: absolute;
     bottom: 0;
@@ -766,7 +768,6 @@
     z-index: 9999
 }
 
-@charset "utf-8";
 
 #content {
     animation: main 1s;
@@ -1017,7 +1018,7 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-    -webkit-appearance: button;
+    appearance: button;
     cursor: pointer
 }
 
@@ -1984,7 +1985,7 @@ a:active {
     float: left;
     margin: 0 13px;
     position: relative;
-    -webkit-transition: all 1s ease
+    transition: all 1s ease
 }
 
 .site-top ul li a {
@@ -2045,7 +2046,7 @@ a:active {
     margin-left: -15px;
     height: 2px;
     background: #666;
-    -webkit-transition: all .2s ease
+    transition: all .2s ease
 }
 
 #show-nav.showNav .line1 {
@@ -2058,7 +2059,7 @@ a:active {
 
 #show-nav.hideNav .line1 {
     top: 16px;
-    -webkit-transform: rotateZ(45deg)
+    transform: rotateZ(45deg)
 }
 
 #show-nav.hideNav .line2 {
@@ -2067,7 +2068,7 @@ a:active {
 
 #show-nav.hideNav .line3 {
     top: 16px;
-    -webkit-transform: rotateZ(-45deg)
+    transform: rotateZ(-45deg)
 }
 
 .lower li ul {
@@ -2083,8 +2084,7 @@ a:active {
     z-index: 9999;
     border-radius: 5px;
     box-shadow: 0 1px 40px -8px rgba(0, 0, 0, .5);
-    -webkit-animation: fadeInUp .3s .1s ease both;
-    -moz-animation: fadeInUp .3s .1s ease both
+    animation: fadeInUp .3s .1s ease both
 }
 
 .lower li ul::before {
@@ -7158,7 +7158,7 @@ input.botui-actions-text-input::-moz-focus-inner {
 
 button.botui-actions-buttons-button {
     cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/No_Disponible.cur), auto;
-    -webkit-appearance: button
+    appearance: button
 }
 
 .botui-app-container {
@@ -7345,7 +7345,7 @@ button.botui-actions-buttons-button {
     vertical-align: middle;
     width: 16px;
     min-width: 16px;
-    -webkit-appearance: none;
+    appearance: none;
     -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
     -webkit-transition: .05s border-color ease-in-out;
@@ -7918,10 +7918,11 @@ input[type=radio]:checked:before {
     }
 }
 
+/* 
 position:relative;
 z-index:99;
 cursor:pointer
-}
+} */
 
 .changeSkin-gear span:before {
     content: "切换主题 | Change Skin "
@@ -10136,4 +10137,13 @@ i.iconfont.js-toggle-search.iconsearch:hover,
 
 .hljs-ln-n:before {
     content: attr(data-line-number)
+}
+
+/* 鼠标样式 */
+* {
+    cursor: url("https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Cursor_Luna_Kindred/pointer.ani"), auto !important
+}
+
+:active {
+    cursor: url("https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Cursor_Luna_Kindred/link.ani"), auto !important
 }
