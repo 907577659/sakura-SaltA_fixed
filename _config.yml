@@ -3,8 +3,8 @@
 prefixName: SaltA
 siteName: Utopia
 # favicon and site master avatar
-favicon: /Blog/Site/favicon.ico
-avatar: /Blog/Site/avatar.gif
+favicon: https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Site/favicon.ico
+avatar: https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Site/avatar.gif
 url: https://www.salta.top
 description: 像你这样的惊喜，可遇而不可求呢…
 
@@ -32,7 +32,7 @@ menus:
   首页: { path: /, fa: fa-fort-awesome faa-shake }
   归档: { path: /archives/, fa: fa-archive faa-shake, submenus: {
     # 统计: {path: /analytics/ , fa: fa-line-chart },
-    全部文章: {path: /categories/, fa: fa-book faa-shake},
+    全部: {path: /archives/, fa: fa-book faa-shake},
     标签: {path: /tags/, fa: fa-tags }, 
     # 技术: {path: /categories/技术/, fa: fa-code }, 
     # 生活: {path: /categories/生活/, fa: fa-file-text-o } #, 
@@ -56,7 +56,7 @@ menus:
     # valine: {path: /valine/, fa: fa-cogs }
   } }
   #项目: { path: /client/, fa: fa-android faa-vertical }
-  # RSS: { path: /atom.xml, fa: fa-rss faa-pulse }
+  RSS: { path: /atom.xml, fa: fa-rss faa-pulse }
 
 #social  url, img PC端配置
 social:
@@ -83,9 +83,9 @@ bgclass: filter-dot # 背景图片样式 空 原图效果 filter-dim 阴影 filt
 bg:
   - https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Site/MainCover_2.png
 
-# 背景音乐
+# 侧边栏
 left_side_bar:
-  enable: false
+  enable: true
 
 bg_music: https://cdn.jsdelivr.net/gh/cungudafa/cdn@latest/music/lovingstrangers.mp3
 
@@ -187,16 +187,16 @@ artitalk:
     border_right_color: '#FFC0BE' #三角颜色
     animation: false #true打开动画渐变渲染(壁纸和动画渐变渲染建议只开一个)
 
-# 评论 
-gitalk:
-  enable: false
-  clientID:  #GitHub Application Client ID
-  clientSecret:  #GitHub Application Client Secret
-  repo: 907577659.github.io  #博客的仓库名称(注意不是地址)
-  owner: 907577659 #github用户名
-  admin: 907577659
-  labels: 'gitalk' #github issue 对应的issue标签（新建一个）
-  distractionFreeMode: true #无干扰模式，不需要更改
+# # gitalk 评论 
+# gitalk:
+#   enable: false
+#   clientID:  #GitHub Application Client ID
+#   clientSecret:  #GitHub Application Client Secret
+#   repo: 907577659.github.io  #博客的仓库名称(注意不是地址)
+#   owner: 907577659 #github用户名
+#   admin: 907577659
+#   labels: 'gitalk' #github issue 对应的issue标签（新建一个）
+#   distractionFreeMode: true #无干扰模式，不需要更改
 
 
 # 友链页信息,tips支持html语言
@@ -226,7 +226,7 @@ postCalendar: true
 #--------------------------------其他功能--------------------------------------------
 
 # 简易信息聚合,站点共享
-# rss: /atom.xml
+rss: /atom.xml
 
 # Whether to activate the copyright information of the blog and author when copying the post content.
 # minCharNumber: Approve copyright information by copying at least how many characters.
