@@ -61,6 +61,7 @@ menus:
 #social  url, img PC端配置
 social:
   github: {url: http://github.com/907577659, img: /Blog/Site/icons/github.png}
+  steam: {url: https://steamcommunity.com/id/Salt_Apocalypse/, img: /Blog/Site/icons/steam.svg}
   bilibili: {url: https://space.bilibili.com/54236200, img: /Blog/Site/icons/bilibili.png}
   wangyiyun: {url: https://music.163.com/#/user/home?id=1562029669, img: /Blog/Site/icons/wangyiyun.png}
   # gitee: {url: https://gitee.com/cungudafa, img: /img/social/gitee.png}
