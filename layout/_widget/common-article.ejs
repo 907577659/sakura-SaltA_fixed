@@ -5,7 +5,7 @@
   <div class="pattern-center single-center">
     <!-- 有配图默认渲染第一张 -->
     <div class="pattern-attachment-img lazyload" style="background-image: url(<%= post.photos[0] %>);"
-      src="<%- theme.lazyloadImg%>" data-src="<%= post.photos[0] %>">
+      src=" <%- theme.lazyloadImg%>" data-src="<%= post.photos[0] %>">
     </div>
     <header class="pattern-header single-header">
       <h1 class="entry-title"><%- post.title %></h1>
@@ -46,7 +46,6 @@
                   ·</span>
                 <!-- 字数统计-->
                 <span class="post-meta-item" <% if (post.encrypt==true) { %>style="display:none" <% } %>>
-
                     <% if(theme.word_count && !post.no_word_count){%>
                       <%- partial('_partial/word') %>
                         <% } %>
@@ -154,7 +153,7 @@
                 </div>
 
                 <!-- .entry-content -->
-                <div class="single-reward">
+                <!-- <div class="single-reward">
                   <div class="reward-open">赏
                     <div class="reward-main">
                       <ul class="reward-row">
@@ -166,13 +165,14 @@
                 </div>
                 <div style="text-align:center; width: 100%" class="social-share share-mobile"
                   data-disabled="diandian, tencent">
-                </div>
+                </div> -->
                 <!-- 评分 -->
+                <!--
                 <div class="single-reward">
                   <%if (theme.widgetpack.enable) { %>
                     <%- partial('_partial/widgetpack') %>
                       <% } %>
-                </div>
+                </div> -->
                 <!-- 自定义署名方式 -->
                 <footer class="post-footer">
                   <div class="post-lincenses" style="color: #ff9966;">

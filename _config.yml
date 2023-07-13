@@ -1,7 +1,8 @@
 #----------------------------网页信息----------------------------------
 # site name
-prefixName: SaltA
-siteName: Utopia
+# 手机模式侧栏 和 顶端logo下显示
+prefixName: "my_own_paradise"
+siteName: ""
 # favicon and site master avatar
 favicon: https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Site/favicon.ico
 avatar: /Blog/Site/avatar.gif
@@ -64,18 +65,13 @@ social:
   steam: {url: https://steamcommunity.com/id/Salt_Apocalypse/, img: /Blog/Site/icons/steam.svg}
   bilibili: {url: https://space.bilibili.com/54236200, img: /Blog/Site/icons/bilibili.png}
   wangyiyun: {url: https://music.163.com/#/user/home?id=1562029669, img: /Blog/Site/icons/wangyiyun.png}
-  # gitee: {url: https://gitee.com/cungudafa, img: /img/social/gitee.png}
-  # csdn: {url: https://blog.csdn.net/cungudafa, img: /img/social/csdn.png}
-  # zhihu: {url: https://www.zhihu.com/people/cungudafa, img: /img/social/zhihu.png}
-  # jianshu: {url: /https://www.jianshu.com/u/9b726a534140, img: /img/social/jianshu.png}
-  # sina: {url: http://weibo.com/3829198906/info, img: /img/social/sina.png}
 
-#social  url, img 移动端配置
-msocial:
-  github: {url: http://github.com/907577659, fa: fa-github, color: 333}
-  # weibo: {url: http://weibo.com/3829198906/info, fa: fa-weibo, color: dd4b39}
-  # qq: {url: https://wpa.qq.com/msgrd?v=3&uin=2627039020&site=qq&menu=yes, fa: fa-qq, color: 25c6fe}
-  # csdn: {url: https://blog.csdn.net/cungudafa, fa: fa-star, color: ff9900}
+#social  url, fa 移动端配置
+# msocial:
+#   github: {url: http://github.com/907577659, fa: "fa-brands fa-github-alt", color: 333}
+#   steam: {url: https://steamcommunity.com/id/Salt_Apocalypse/, fa: "fa-brands fa-steam", color: 003}
+#   bilibili: {url: https://space.bilibili.com/54236200, fa: "fa-bilibili", color: fb7299}
+#   wangyiyun: {url: https://music.163.com/#/user/home?id=1562029669, fa: "fa-music", color: ff0000}
 
 #--------------------------------首页----------------------------------------
 # 首页轮播图蒙版
@@ -88,12 +84,12 @@ bg:
 left_side_bar:
   enable: true
 
-bg_music: https://cdn.jsdelivr.net/gh/cungudafa/cdn@latest/music/lovingstrangers.mp3
+bg_music: https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Site/theresa_biu.mp3
 
 # 首页提示语
 notice: 德丽莎世界第一可爱，biu~
 # 首页提示音
-myvoice: https://cdn.jsdelivr.net/gh/cungudafa/cdn@latest/music/lovingstrangers.mp3
+myvoice: https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Site/theresa_biu.mp3
 # 缓加载动画
 lazyloadImg: https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg
 
@@ -115,16 +111,16 @@ post_description:
   enable: false # 自动获取文章前50字
 
 
-#--------------------------------功能页面-------------------------------------------
-donate:
-  title: Donate? No!
-  # message: 我能想到最浪漫的事，就是我喝奶茶你付钱~
-  # paypal: #https://www.paypal.me/hojuncn
-  # alipay: /img/custom/donate/AliPay.jpg #大图
-  # alipayQR: /img/custom/donate/AliPayQR.jpg
-  # wechat: /img/custom/donate/WeChatPay.png #大图
-  # wechatQR: /img/custom/donate/WeChanQR.jpg
-  # wechatSQ: /img/custom/donate/WeChanSQ.jpg
+# #--------------------------------功能页面-------------------------------------------
+# donate:
+#   title: Donate? No!
+#   # message: 我能想到最浪漫的事，就是我喝奶茶你付钱~
+#   # paypal: #https://www.paypal.me/hojuncn
+#   # alipay: /img/custom/donate/AliPay.jpg #大图
+#   # alipayQR: /img/custom/donate/AliPayQR.jpg
+#   # wechat: /img/custom/donate/WeChatPay.png #大图
+#   # wechatQR: /img/custom/donate/WeChanQR.jpg
+#   # wechatSQ: /img/custom/donate/WeChanSQ.jpg
 
 # 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
 movies:
