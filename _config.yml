@@ -94,11 +94,10 @@ myvoice: https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Site/theresa_biu.mp3
 # 缓加载动画
 lazyloadImg: https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg
 
-# startdash url, title, desc img
+# startdash url, title, desc, img
 startdash: 
    - {url: https://907577659.github.io/post/230328.html, title: Teriteri, desc: 一款typora主题。, img: /Blog/Site/MainCover_2.png}
-  # - {url: https://v.youku.com/v_show/id_XMjg5MzUyMDY3Ng==.html?refer=seo_operation.liuxiao.liux_00003303_3000_Qzu6ve_19042900, title: Youku, desc: 内在美电影, img: /img/startdash/beautyinside.jpg}
-  # - {url: https://blog.csdn.net/cungudafa, title: csdn, desc: 技术栈, img: /img/custom/HanHyoJoo.gif}
+   - {url: https://907577659.github.io/post/230328.html, title: 月下初拥主题光标, desc: 用❤️创作。, img: /Blog/Pages/230716/Desktop_Luna_Kindred.png}
 
 # 首页文章排序规则
 # Home page sort type: -1: newer first，1: older first.首页文章排序规则
