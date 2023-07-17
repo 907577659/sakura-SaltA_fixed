@@ -1,7 +1,7 @@
 #----------------------------网页信息----------------------------------
 # site name
 # 手机模式侧栏 和 顶端logo下显示
-prefixName: "my_own_paradise"
+prefixName: "SaltA's_Utopia"
 siteName: ""
 # favicon and site master avatar
 favicon: https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Site/favicon.ico
@@ -11,10 +11,11 @@ description: 像你这样的惊喜，可遇而不可求呢…
 
 # 左侧网站名称
 logo:
-  sakuraso: SaltA
+  sakuraso: Salt
   no: ⭐
-  shironeko: Utopia
+  shironeko: pocalypse
 
+# 建站时间
 siteBuildingTime: 2021-09-08 00:00:00
 
 #ICP备案信息尾部显示
@@ -96,8 +97,8 @@ lazyloadImg: https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progres
 
 # startdash url, title, desc, img
 startdash: 
-   - {url: https://www.salta.top/post/230328.html, title: Teriteri, desc: 一款typora主题。, img: /Blog/Site/MainCover_2.png}
-   - {url: https://www.salta.top/post/230716.html, title: 月下初拥主题光标, desc: 用❤️创作。, img: /Blog/Pages/230716/Desktop_Luna_Kindred.png}
+   - {url: https://www.salta.top/post/230328.html, title: Teriteri, desc: 一款typora主题。, img: /Blog/Site/backgrounds/MainCover_2.png}
+   - {url: https://www.salta.top/post/230716.html, title: 月下初拥主题光标, desc: 用❤️创作。, img: /Blog/Pages/230716/Cover.png}
 
 # 首页文章排序规则
 # Home page sort type: -1: newer first，1: older first.首页文章排序规则
@@ -269,12 +270,12 @@ widgetpack:
 # Online contact ##在线聊天 https://www.daocloud.io/
 daovoice: 
   enable: false
-  app_id: f6b2a0b1 ##这里替换成你DaoVoice上的appid
+  app_id:  ##这里替换成你DaoVoice上的appid
 
 # 天气显示 http://weatherdt.com/
 weather:
   enable: false
-  app_id: yqRrzxwtvs ##这里替换成你的appid
+  app_id:  ##这里替换成你的appid
 
 # 建议一项只开一个
 js:
