@@ -49,7 +49,7 @@ menus:
   # } }
   # 留言板: { path: /comment/, fa: fa-pencil-square-o faa-tada }
   友人帐: { path: /links/, fa: fa-link faa-shake }
-  # 赞赏: { path: /donate/, fa: fa-heart faa-pulse }
+  测试场: { path: /test/, fa: fa-bullseye }
   关于: { path: /, fa: fa-leaf faa-wrench , submenus: { 
     我~: {path: /about/, fa: fa-meetup}, 
     # 主题: {path: /theme-sakura/, fa: iconfont icon-sakura },
@@ -78,8 +78,8 @@ social:
 bgclass: filter-dot # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
 # 轮播图、如果文章没有设置photos会在这里随机取图
 bg:
-  - https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Site/MainCover_2.png
-  - https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Pages/230716/Desktop_Luna_Kindred.png
+  # - https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Site/backgrounds/MainCover_2.png
+  - https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Site/backgrounds/Desktop_Luna_Kindred.png
 
 # 侧边栏
 left_side_bar:
@@ -96,8 +96,8 @@ lazyloadImg: https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progres
 
 # startdash url, title, desc, img
 startdash: 
-   - {url: https://907577659.github.io/post/230328.html, title: Teriteri, desc: 一款typora主题。, img: /Blog/Site/MainCover_2.png}
-   - {url: https://907577659.github.io/post/230328.html, title: 月下初拥主题光标, desc: 用❤️创作。, img: /Blog/Pages/230716/Desktop_Luna_Kindred.png}
+   - {url: https://www.salta.top/post/230328.html, title: Teriteri, desc: 一款typora主题。, img: /Blog/Site/MainCover_2.png}
+   - {url: https://www.salta.top/post/230716.html, title: 月下初拥主题光标, desc: 用❤️创作。, img: /Blog/Pages/230716/Desktop_Luna_Kindred.png}
 
 # 首页文章排序规则
 # Home page sort type: -1: newer first，1: older first.首页文章排序规则
@@ -184,18 +184,6 @@ valine:
 #     border_right_color: '#FFC0BE' #三角颜色
 #     animation: false #true打开动画渐变渲染(壁纸和动画渐变渲染建议只开一个)
 
-# # gitalk 评论 
-# gitalk:
-#   enable: false
-#   clientID:  #GitHub Application Client ID
-#   clientSecret:  #GitHub Application Client Secret
-#   repo: 907577659.github.io  #博客的仓库名称(注意不是地址)
-#   owner: 907577659 #github用户名
-#   admin: 907577659
-#   labels: 'gitalk' #github issue 对应的issue标签（新建一个）
-#   distractionFreeMode: true #无干扰模式，不需要更改
-
-
 # 友链页信息,tips支持html语言
 mylinkinfo:
   enable: true
@@ -213,7 +201,7 @@ mylinkinfo:
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面achive中是否显示'文章日历'控件
-postCalendar: true 
+postCalendar: false
 
 # 仿volantis主题小标签美化 
 # 更多详细使用参考 https://volantis.js.org/v2/tag-plugins/
@@ -229,7 +217,7 @@ rss: /atom.xml
 # minCharNumber: Approve copyright information by copying at least how many characters.
 # 是否激活复制文章时追加博客和作者的版权信息.
 copyright:
-  enable: true # 代码块是否可复制,true允许,false加上文章信息
+  enable: false # 代码块是否可复制,true允许,false加上文章信息
   minCharNumber: 120 # 至少复制多少个字符就追加版权信息.
   description: 本文章著作权归作者所有，任何形式的转载都请注明出处。
 
