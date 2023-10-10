@@ -4,7 +4,7 @@
 prefixName: "SaltA's_Utopia"
 siteName: ""
 # favicon and site master avatar
-favicon: https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Site/favicon.ico
+favicon: https://cdn.jsdelivr.net/gh/saltapocalypse/CDN/Blog/Site/favicon.ico
 avatar: /Blog/Site/avatar.gif
 url: https://www.salta.top
 description: 像你这样的惊喜，可遇而不可求呢…
@@ -24,7 +24,7 @@ icp:
   url: http://www.beian.miit.gov.cn/state/outPortal/loginPortal.action # 备案链接
   text:  # 备案信息
 
-cdn: https://cdn.jsdelivr.net/gh/907577659/CDN
+cdn: https://cdn.jsdelivr.net/gh/saltapocalypse/CDN
 pjax: 0 # 无刷新类似ajax,加速
 mathjax: 1 # 1开启,公式解析
 
@@ -64,19 +64,19 @@ social:
 bgclass: filter-dot # 背景图片样式 空 原图效果 filter-dim 阴影 filter-grid 横条 filter-dot 点点
 # 轮播图、如果文章没有设置photos会在这里随机取图
 bg:
-  - https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Site/backgrounds/Desktop_Luna_Kindred.png
-  - https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Site/backgrounds/Desktop_Luna_Kindred_v2.jpg
+  - https://cdn.jsdelivr.net/gh/saltapocalypse/CDN/Blog/Site/backgrounds/Desktop_Luna_Kindred.png
+  - https://cdn.jsdelivr.net/gh/saltapocalypse/CDN/Blog/Site/backgrounds/Desktop_Luna_Kindred_v2.jpg
 
 # 侧边栏
 left_side_bar:
   enable: true
 
-bg_music: https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Site/theresa_biu.mp3
+bg_music: https://cdn.jsdelivr.net/gh/saltapocalypse/CDN/Blog/Site/theresa_biu.mp3
 
 # 首页提示语
 notice: 德丽莎世界第一可爱，biu~
 # 首页提示音
-myvoice: https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Site/theresa_biu.mp3
+myvoice: https://cdn.jsdelivr.net/gh/saltapocalypse/CDN/Blog/Site/theresa_biu.mp3
 # 缓加载动画
 lazyloadImg: https://cdn.jsdelivr.net/gh/cungudafa/cdn/img/loader/orange.progress-bar-stripe-loader.svg
 
@@ -111,7 +111,7 @@ donate:
 
 # 视频地址为https://cdn.jsdelivr.net/gh/honjun/hojun@1.2/Unbroken.mp4，配置如下
 movies:
-  url: https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Site/Celestial_Hymn.mp4
+  url: https://cdn.jsdelivr.net/gh/saltapocalypse/CDN/Blog/Site/Celestial_Hymn.mp4
   name: Celestial_Hymn.mp4
   # url: https://cdn.jsdelivr.net/gh/honjun/hojun@1.2
   # 多个视频用逗号隔开，随机获取。支持的格式目前已知MP4,Flv。其他的可以试下，不保证有用
@@ -179,7 +179,7 @@ mylinkinfo:
   name: Salt Apocalypse
   desc: 一般路过德厨。
   url: https://www.salta.top
-  img: https://cdn.jsdelivr.net/gh/907577659/CDN/Blog/Site/avatar.gif
+  img: https://cdn.jsdelivr.net/gh/saltapocalypse/CDN/Blog/Site/avatar.gif
 
 # botui https://www.bootcdn.cn/botui/
 # 简介在about页面需要单独配置（/js/third-party/botui.js）
